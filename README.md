@@ -1,4 +1,4 @@
-# Laravel 7 Mailable 類別 Markdown 訊息
+# Laravel 8 Mailable 類別 Markdown 訊息
 
 Mailable 類別 Markdown 使用 Blade 元件跟 Markdown 語法的組合，讓你可以輕鬆構建郵件訊息，同時利用 Laravel 的預製元件漂亮地渲染出漂亮且響應式的 HTML 模板，同時自動生成純文字的副本。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/ATJGTKy.png)
+![](https://i.imgur.com/JlSyKik.png)
 > 在撰寫 Markdown 郵件時不要使用過多的縮排。Markdown 解析器會將縮排的內容以程式碼區塊呈現
