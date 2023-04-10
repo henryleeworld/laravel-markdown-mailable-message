@@ -13,10 +13,10 @@ class MailController extends Controller
     {
         $email = 'henryleeworld@gmail.com';
         $info = [
-            'title' => '日職》王柏融新賽季改穿「3號」 扛下前輩田中賢介背號',
-            'url' => 'https://sports.ltn.com.tw/news/breakingnews/3004311'
+            'title' => __('Rare Pikachu, Kobe’s sneakers — a hidden vault guards it all'),
+            'url' => 'https://features.ltn.com.tw/english/article/paper/1573624'
         ];
         Mail::to($email)->send(new InfoMail($info));
-        dd("Mail Send Successfully");
+        dd(__('Mail Send Successfully'));
     }
 }

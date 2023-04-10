@@ -29,7 +29,8 @@ class InfoMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('mails.infoMail')
+        return $this->subject($this->info['title'])
+		            ->markdown('mails.info-mail')
                     ->with('info', $this->info);
     }
 }
