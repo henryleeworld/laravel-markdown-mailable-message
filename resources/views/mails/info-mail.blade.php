@@ -1,16 +1,16 @@
-@component('mail::message')
+<x-mail::message>
 # {{ $info['title'] }}
 
-{{ __('The ordinary brown brick building, tucked within a nondescript block in Delaware, hints that something important lay inside, possibly even precious.') }}
+{{ __('In a new study involving a group of polyglots, the brain activity of the participants was monitored using a method called functional magnetic resonance imaging as they listened to passages read in various languages.') }}
 
-{{ __('There’s a rare Pikachu card and a pair of sneakers worn and signed by the late NBA great Kobe Bryant.') }}
+{{ __('With one intriguing exception, activity increased in the areas of the cerebral cortex involved in the brain’s language-processing network when these polyglots - who spoke between five and 54 languages - heard languages in which they were the most proficient compared to ones of lesser or no proficiency.') }}
 
-{{ __('In all, $200 million in collectibles are stored in two vaults inside the building, equipped with some of the latest technology to keep the valuable cache safe from harm or thieves.') }}
+{{ __('But an exception caught the attention of the researchers. In many of the participants, listening to their native language elicited a lesser brain response compared to hearing other languages they knew - on average down about 25%. And in some of the polyglots, listening to their native language activated only a part of the brain’s language network, not the whole thing.') }}
 
-@component('mail::button', ['url' => $info['url']])
+<x-mail::button :url="$info['url']">
 {{ __('Link') }}
-@endcomponent
+</x-mail::button>
 
 {{ __('Thanks,') }}<br>
 {{ config('app.name') }}
-@endcomponent
+</x-mail::message>
