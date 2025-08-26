@@ -1,11 +1,11 @@
 <x-mail::message>
 # {{ $info['title'] }}
 
-{{ __('In a new study involving a group of polyglots, the brain activity of the participants was monitored using a method called functional magnetic resonance imaging as they listened to passages read in various languages.') }}
+{{ __('A major exhibition dedicated to baroque master Caravaggio opens on Friday in Rome, including normally out-of-reach works from private collections and others not seen in the artist\'s Italian homeland for centuries.') }}
 
-{{ __('With one intriguing exception, activity increased in the areas of the cerebral cortex involved in the brain’s language-processing network when these polyglots - who spoke between five and 54 languages - heard languages in which they were the most proficient compared to ones of lesser or no proficiency.') }}
+{{ __('Caravaggio, born as Michelangelo Merisi, was a virtuoso of the chiaroscuro technique of lighting to make his subjects seem to come alive. He led a short and turbulent life, which included a forced exile from Rome after killing a man in a brawl.') }}
 
-{{ __('But an exception caught the attention of the researchers. In many of the participants, listening to their native language elicited a lesser brain response compared to hearing other languages they knew - on average down about 25%. And in some of the polyglots, listening to their native language activated only a part of the brain’s language network, not the whole thing.') }}
+{{ __('The exhibition in the Palazzo Barberini museum covers 15 years of his professional life, from his arrival in Rome in 1595, where he established himself as a rare talent, until his death in 1610, aged 39, in southern Tuscany.') }}
 
 <x-mail::button :url="$info['url']">
 {{ __('Link') }}

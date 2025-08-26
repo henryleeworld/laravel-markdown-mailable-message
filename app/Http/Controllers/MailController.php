@@ -12,8 +12,8 @@ class MailController extends Controller
     {
         $email = 'henryleeworld@gmail.com';
         $info = [
-            'title' => __('Study of polyglots offers insight on brain’s language processing'),
-            'url' => 'https://features.ltn.com.tw/english/article/paper/1637228'
+            'title' => __('Rare Caravaggio masterpieces showcased in Rome exhibition'),
+            'url' => 'https://features.ltn.com.tw/english/article/paper/1696846'
         ];
         Mail::to($email)->send(new InfoMail($info));
         dd(__('Mail Send Successfully'));
